@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+
+
+</head>
+
+
+<body>
+	<p>Send by GET-method</p>
+	<form id="regFormGet" name="regFormGet">
+		<label for="firstNameGet">First name:</label>
+		<input value="John" id="firstNameGet" name="firstNameGet" placeholder="Taras" inputmode="text" checked="checked" type="text"> <br><br>
+		
+		<label for="lastNameGet">Last name:</label>
+		<input value="Smithson" id="lastNameGet" name="lastNameGet" placeholder="Shevchenko" inputmode="text" checked="checked" type="text"><br><br>
+		
+		<label for="ageGet">Age:</label>
+		<input value="22" id="ageGet" name="ageGet" placeholder="23" inputmode="decimal" checked="checked" type="text"><br><br>
+		
+		<label for="addressGet">Address:</label>
+		<input value="USA, NY City, StRose str bld. 12 appart. 55" id="addressGet" name="addressGet" placeholder="example: Ukraine, Lviv city, Freedom str.15 " inputmode="text" checked="checked" type="text" size="50"><br><br>
+		
+		<input id="sendGetBtn" type="button" value="submit">     
+	</form>
+
+	<p>Send by POST-method</p>
+	<form id="regFormPost" name="regFormPost">
+		<label for="firstNamePost">First name:</label>
+		<input value="Peter" id="firstNamePost" name="firstNamePost" placeholder="Taras" inputmode="text" checked="checked" type="text"> <br><br>
+		
+		<label for="lastNamePost">Last name:</label>
+		<input value="Westson" id="lastNamePost" name="lastNamePost" placeholder="Shevchenko" inputmode="text" checked="checked" type="text"><br><br>
+		
+		<label for="agePost">Age:</label>
+		<input value="33" id="agePost" name="agePost" placeholder="23" inputmode="decimal" checked="checked" type="text"><br><br>
+		
+		<label for="addressPost">Address:</label>
+		<input value="Ukraine, Lviv, Independence str app. 18" id="addressPost" name="addressPost" placeholder="example: Ukraine, Lviv city, Freedom str.15 " inputmode="text" checked="checked" type="text" size="50"><br><br>
+
+		<input id="sendPostBtn" type="button" value="submit">             
+		
+	</form>
+
+	<script src="jquery_calls.js"></script>
+
+</body>
+</html>
